@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_e34f0b4f3e949f776210b7b92c64efeeaf979bab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_cc476edee58a02326c0f4cf662283e982e7d3fc9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.0_1b2f63faf6b9a5e2c546e1a49d3816d6d9ed06dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.0_bd7114c12fff036a3ede999dcbdd31e5d5263144.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.0_a7da73dfa7ba28900bf4a8c4f36d045550bf355b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.0_32157a038dac3a1ca538a7a965ed4c319076ac3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_dd0a7d007e3c49477590a5e49be5513b20ae0766.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/exploded-aar/com.github.sundeepk/compact-calendar-view/1.9.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d10d39e6bd429d266352e2264f0695791c0f9e11">
+        <dex dex="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/pre-dexed/debug/com.github.sundeepk-compact-calendar-view-1.9.3_0e58276be69913da5d55b6fa840530c49929071d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_0f7a23c1fce7ecfc982b5d997329219a75a98d90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.0_576ce89938b36a6f55588e3c842b302e5f5c57c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_d18b61a871bf82e2019217bdbcfe79657608454e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.0_0415222a24d049494984eb012dddf1f33c32880e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_dc804a3dc81689fffbd6638431fa908e7ac0728e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="461cd433c2723981c7536d60acfcf3d86f3105fb">
+        <dex dex="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/pre-dexed/debug/com.github.paolorotolo-appintro-4.1.0_28a03218816946ef6e12ef103005b37927b64280.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/konstantin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/konstantin/Downloads/LeaveTracker-master/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_444fb6a0a790fffbc960d385eeff7575dd38d138.jar" />
+    </item>
+
+</items>

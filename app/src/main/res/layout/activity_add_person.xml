@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_person"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ranveeraggarwal.letrack.activities.AddPersonActivity">
+
+    <include
+        android:id="@+id/add_app_bar"
+        layout="@layout/app_bar" />
+
+    <ScrollView
+        android:id="@+id/add_person_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/add_app_bar"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/card_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:labelFor="@+id/name_field"
+                    android:text="@string/name_field_desc"
+                    android:textColor="@color/colorTextPrimary" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4">
+
+                    <EditText
+                        android:id="@+id/name_field"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:layout_weight="6"/>
+
+                    <ImageView
+                        android:id="@+id/choose_from_contacts"
+                        android:src="@drawable/ic_person_black_24dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:tint="@color/colorPrimary"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/card_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/description_field_desc"
+                    android:textColor="@color/colorTextPrimary" />
+
+                <EditText
+                    android:id="@+id/description_field"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:inputType="text"
+                    android:hint="@string/description_field_example"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/card_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/frequency_field"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/frequency_field_desc"
+                        android:textColor="@color/colorTextPrimary" />
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:id="@+id/frequency_field_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="@string/one" />
+
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:id="@+id/frequency_field_2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/two" />
+
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:id="@+id/frequency_field_3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/three" />
+
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:id="@+id/frequency_field_4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/four" />
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/frequency_field_helper" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/card_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/start_date"
+                    android:textColor="@color/colorTextPrimary" />
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/start_date_field"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/date_array"
+                    android:spinnerMode="dropdown"
+                    android:layout_weight="4" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="64dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        style="@style/card_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical"
+        android:padding="0dp">
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:text="@string/add_person" />
+    </LinearLayout>
+
+</RelativeLayout>
